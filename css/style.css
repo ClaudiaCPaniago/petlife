@@ -71,3 +71,121 @@ h2 {
   width: 100%;
   z-index: -10;
 }
+
+/* Seção clínica */
+#clinica {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+  padding: 64px 80px;
+}
+
+#clinica li {
+  margin-bottom: 16px;
+  margin-left: 32px;
+}
+
+/* Seção petshop e farmácia */
+#farmacia {
+  padding: 64px 80px;
+  text-align: center;
+}
+
+#farmacia img {
+  margin: 64px auto;
+}
+
+#farmacia .paragrafo {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+/* Seção dúvidas frequentes */
+#duvidas {
+  display: flex;
+  align-items: start;
+  gap: 64px;
+  padding: 64px 80px;
+}
+
+.duvida {
+  position: relative;
+}
+
+.duvida h3 {
+  border: 2px solid var(--cor-secundaria);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 24px;
+  display: block;
+}
+
+.duvida img {
+  position: absolute;
+  top: 32px;
+  right: 24px;
+}
+
+.duvida p {
+  border-right: 1px solid #ff725e;
+  border-bottom: 1px solid #ff725e;
+  border-left: 1px solid #ff725e;
+  border-radius: 0 0 8px 8px;
+  margin-top: -8px;
+  padding: 0 24px;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.duvida.ativa p {
+  height: fit-content;
+  opacity: 1;
+  padding: 24px;
+}
+
+/* Rodapé */
+footer {
+  background-color: rgba(255, 152, 108, 0.25);
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  padding: 64px 80px;
+}
+
+footer img,
+footer .titulo {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+footer nav a {
+  color: #263138;
+  display: block;
+  margin-bottom: 16px;
+  text-decoration: none;
+  max-width: 350px;
+}
+
+footer p {
+  margin-bottom: 16px;
+  max-width: 350px;
+}
+
+footer p a {
+  color: #263138;
+  text-decoration: none;
+}
+
+#copyright {
+  background-color: #263138;
+  color: #ffffff;
+  padding: 24px;
+  text-align: center;
+}
+
+#copyright a {
+  color: #ff9a6c;
+}
