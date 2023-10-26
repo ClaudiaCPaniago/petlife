@@ -12,9 +12,6 @@ Página web desenvolvida para a trilha Start na Programação 🤘 da OneBitCode
 
   <br>
 
-  ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-
-<br>
 
 O link do site para a realização do Desafio: <br> 
   https://www.onebitcode.com/aulasminicurso
